@@ -1,0 +1,20 @@
+# Byte-compiled files
+__pycache__/
+
+# Environments
+.env
+.venv
+
+# Project distribution
+build/
+dist/
+
+# Static type checking
+.mypy_cache/
+.dmypy.json
+
+# Linting
+.ruff_cache/
+
+# Unit tests
+.pytest_cache/
