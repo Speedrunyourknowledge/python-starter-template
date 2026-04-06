@@ -7,15 +7,9 @@ The `uv run` command eliminates the need to manually create and activate virtual
 as uv automatically sets up the virtual environment and installs necessary dependencies on-the-fly.
 
 ## Development Optimizations
-- Static type checking
-  - mypy
-- Linting
-  - ruff
-- Unit testing
-  - pytest
-
-mypy does not need to be installed locally since it is available as a 
-[VSCode extension](https://marketplace.visualstudio.com/items?itemName=ms-python.mypy-type-checker).
+- Static type checking — mypy (available as a [VSCode extension](https://marketplace.visualstudio.com/items?itemName=ms-python.mypy-type-checker))
+- Linting — ruff
+- Unit testing — pytest
 
 ## Getting Started
 
