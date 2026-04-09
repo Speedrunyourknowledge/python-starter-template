@@ -13,13 +13,17 @@ as uv automatically sets up the virtual environment and installs necessary depen
 
 ## Getting Started
 
+1. Sync dependencies
 ```bash
-# 1. Sync dependencies
 uv sync
+```
 
-# 2. Configure environment variables
+2. Configure environment variables
+```bash
 cp .env.example .env
+```
 
-# 3. Run the project
+3. Run the project
+```bash
 uv run main.py
 ```
